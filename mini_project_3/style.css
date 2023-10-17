@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+    flex-direction: column;
+}
+h1{
+    color: white;
+}
+#clock{
+    padding: 20px;
+    background-color: grey;
+    border-radius: 15px;
+}
