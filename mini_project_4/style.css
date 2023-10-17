@@ -9,12 +9,25 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    flex-direction: column;
+    /* flex-direction: column; */
+    gap: 1.5rem;
     
 }
 
-#btt{
+.button{
     padding: 20px;
     border-radius: 15px;
     border: none;
+}
+#green{
+    background-color: green;
+}
+#red{
+    background-color: red;
+}
+#blue{
+    background-color: blue;
+}
+#purple{
+    background-color: purple;
 }
