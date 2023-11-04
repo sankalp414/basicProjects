@@ -6,7 +6,7 @@ document.querySelector("h1").onmouseover = event =>{
   const interval = setInterval(() =>  {event.target.innerText = event.target.innerText.split("")
     .map((letter,index)=>{
         if(index<iterations){
-            return event.target.dataset.value[index];
+            return event.target.dataset.value[index]; // event
         }
 
      return letters[(Math.floor(Math.random() * 26))]
