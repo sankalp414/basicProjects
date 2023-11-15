@@ -12,6 +12,7 @@ buttons.forEach((button) => {
         if (button.hasAttribute('data-number')) {
             currentInput += value;
             display.value = currentInput;
+
         } else if (button.hasAttribute('data-operator')) {
             if (value === '=') {
                 if (currentOperator && currentInput !== '') {
