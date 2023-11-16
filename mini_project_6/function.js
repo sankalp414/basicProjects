@@ -4,7 +4,7 @@ const buttons = document.querySelectorAll('.calculator button');
 let currentInput = '';
 let currentOperator = '';
 let currentResult = null;
-
+//for each function
 buttons.forEach((button) => {
     button.addEventListener('click', () => {
         const value = button.textContent;
