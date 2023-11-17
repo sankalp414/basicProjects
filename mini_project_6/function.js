@@ -1,6 +1,6 @@
 const display = document.getElementById('display');
 const buttons = document.querySelectorAll('.calculator button');
-
+// calculator
 let currentInput = '';
 let currentOperator = '';
 let currentResult = null;
