@@ -1,12 +1,12 @@
 const display = document.getElementById('display');
 const buttons = document.querySelectorAll('.calculator button');
 // calculator
-let currentInput = '';
-let currentOperator = '';
+let currentInput = ''; 
+let currentOperator = ''; 
 let currentResult = null;
 //for each function
-buttons.forEach((button) => {
-    button.addEventListener('click', () => {
+buttons.forEach((button) => { //this is for all buttons
+    button.addEventListener('click', () => {  //it  is for the click events 
         const value = button.textContent;
 
         if (button.hasAttribute('data-number')) {
