@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+#card{
+    max-width: 500px;
+    background-color: aqua;
+    padding: 10rem 5rem;
+
+}
