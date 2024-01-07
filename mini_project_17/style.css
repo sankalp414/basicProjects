@@ -1,6 +1,6 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -10,20 +10,22 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    prospective: 1000px;
 }
+
 .container{
     width: 50%;
     display: flex;
-    justify-content: center;
     align-items: center;
-    
+    justify-content: center;
+    background-color: lightblue;
 }
 
 .card{
-    
+    transform-style: preserve-3d;
     min-height: 80vh;
     width: 35rem;
-    border-radius: 30px;
-    padding: 0rem 5rem;
-    box-shadow: 0 20px 20px rgba(0,0,0,0.2), 0px 0px 50px rgba(0,0,0,0.2);
+    background-color: coral;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2) ;
+    border-radius: 20px;
 }
