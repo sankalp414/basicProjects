@@ -9,7 +9,7 @@ textArea.addEventListener('keyup',()=>{
     if(e.key === 'Enter'){
         setTimeout(()=>{
             e.target.value=''
-        })
+        },100)
     }
 })
 
